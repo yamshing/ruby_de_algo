@@ -58,7 +58,25 @@ end
 	end
 end
  
-if @e.to_s == '[[0.7071067811865475, 0.7071067811865475, 0.0], [0.40824829046386296, -0.4082482904638632, 0.8164965809277261], [-0.5773502691896252, 0.5773502691896262, 0.5773502691896257]]'
-	pp 'ok'
-	#pp @e.to_s
+@e.each do |row|
+	sum = 0
+	row.each do |elem|
+		sum += (elem ** 2)
+	end
+	len = Math.sqrt sum
+	#len must be 1
+	pp len.round(2)
 end
+dot1 = dot(@e[0], @e[1])
+dot2 = dot(@e[0], @e[2])
+dot3 = dot(@e[1], @e[2])
+ 
+#dot must be 0
+pp dot1.round(3)
+pp dot2.round(3)
+pp dot3.round(3)
+
+
+
+
+
