@@ -1,3 +1,5 @@
+#ref http://dora.bk.tsukuba.ac.jp/~takeuchi/?%E7%B7%9A%E5%BD%A2%E4%BB%A3%E6%95%B0%EF%BC%A9%2F%E8%A6%81%E7%82%B9%2F%EF%BC%88%E3%82%B0%E3%83%A9%E3%83%A0%EF%BC%89%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%83%E3%83%88%E3%81%AE%E7%9B%B4%E4%BA%A4%E5%8C%96%E6%B3%95#i5088b82
+ 
 require 'pp'
 
 @orig = [[1, 1, 0],[0, -1, 1],[1, 1, 1]]
